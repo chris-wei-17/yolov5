@@ -1,0 +1,22 @@
+train: ../../../datasets/flir_adas/images_thermal_train/
+val: ../../../datasets/flir_adas/images_thermal_val/
+
+nc: <N>
+names: [ 
+    0: "bike",
+    1: "bus",
+    2: "car",
+    3: "hydrant",
+    4: "light",
+    5: "motor",
+    6: "other vehicle",
+    7: "person",
+    8: "sign",
+    9: "skateboard",
+    10: "stroller",
+    11: "truck",
+    12: "deer", # Training only
+    13: "scooter", # Training only
+    14: "train", # Training only
+    15: "dog" # Training only
+  ]
