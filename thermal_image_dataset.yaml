@@ -1,5 +1,6 @@
-train: ../../../datasets/flir_adas/images_thermal_train/
-val: ../../../datasets/flir_adas/images_thermal_val/
+path: /home/yeti/
+train: datasets/flir_adas/images_thermal_train
+val: datasets/flir_adas/images_thermal_val
 
 nc: <N>
 names: [ 
